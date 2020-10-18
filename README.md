@@ -1,0 +1,2 @@
+# yugionacoin
+yugiona chain core
