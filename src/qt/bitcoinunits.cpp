@@ -52,8 +52,8 @@ QString BitcoinUnits::description(int unit)
     switch(unit)
     {
     case BTC: return QString("YUGIONACOIN");
-    case mBTC: return QString("Milli-Yugionacoins (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("Micro-Yugionacoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case mBTC: return QString("Milli-YUGIONACOIN (1 / 1" THIN_SP_UTF8 "000)");
+    case uBTC: return QString("Micro-YUGIONACOIN (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
 }
